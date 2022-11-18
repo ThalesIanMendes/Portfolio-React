@@ -30,7 +30,6 @@
   font-weight: bold;
   font-size: 45px;
 }
-
 .front-end-text {
   position: relative;
   margin: 220px auto;
@@ -44,10 +43,13 @@
   text-align: right;
   position: relative;
   margin: 0 35px 0 0;
+  transition: .9s;
   color: white;
   font-size: 220px;
 }
-
+.front-end-text p:hover {
+  color: rgb(50, 11, 68);
+}
 
 
 
@@ -110,8 +112,13 @@ img {
 .logo {
   border: 0;
   width: 50px;
+  animation: logo 2s infinite alternate;
 }
-
+@keyframes logo {
+  from {
+    transform: translateY(-10px) ;
+  }
+}
 
 
 
@@ -127,6 +134,7 @@ img {
 }
 .box-text-conhecimentos p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: .9s;
   position: relative;
   margin: 0 0 0 150px;
   padding-top: 10px;
@@ -138,8 +146,12 @@ img {
   position: relative;
   margin: 0 0 0 440px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: .9s;
   font-weight: bold;
   font-size: 110px;
+}
+.box-text-conhecimentos p:hover {
+  color: rgb(50, 11, 68);
 }
 .texto-img {
   position:relative;
@@ -161,8 +173,12 @@ img {
   border-radius: 5px;
   position: absolute;
   margin: 60px 0 0 -160px;
+  transition: .9s;
   width: 180px;
   height: 180px;
+}
+.img-div:hover {
+  background-color: rgb(54, 129, 194);
 }
 .texto-img img {
   position: relative;
