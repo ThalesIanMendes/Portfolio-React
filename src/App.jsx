@@ -1,5 +1,5 @@
 import './App.css'
-import rosto from './assets/rosto2.jpg'
+import rosto from './assets/rosto.jpeg'
 import linkedin from './assets/mdi_linkedin.png'
 import github from './assets/mdi_github.png'
 import cerebro from './assets/cerebro.jpg'
