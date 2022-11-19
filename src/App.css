@@ -66,14 +66,14 @@
   margin: auto;
   background-color: rgb(80, 78, 62);
   border-radius: 5px;
-  width: 700px;
+  width: 650px;
   height: 500px;
 }
 .box-text p {
   color: aliceblue;
   text-indent: 10px;
-  padding: 15px 20px 0 20px;
-  font-size: 24px;
+  padding: 20px 20px 0 20px;
+  font-size: 23px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .box-img {
@@ -81,15 +81,15 @@
   margin: auto;
   background-color: rgb(199, 199, 199);
   border-radius: 5px;
-  width: 550px;
+  width: 540px;
   height: 750px;
 }
 img {
   position: relative;
-  margin: 35px;
+  margin: 30px;
   width: 480px;
- border-radius: 5px;
- border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 .box-nome {
   position: absolute;
@@ -144,7 +144,7 @@ img {
 }
 .box-text-conhecimentos p:nth-child(2) {
   position: relative;
-  margin: 0 0 0 440px;
+  margin: 0 0 0 400px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: .9s;
   font-weight: bold;
